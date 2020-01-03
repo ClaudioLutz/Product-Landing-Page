@@ -1,10 +1,14 @@
 body{
   text-align: center;
   font-family: Helvetica;
-  background-color: cyan;
+  background-color: black;
   display: grid;
-  width:1000px;
-  max-width: 100%;
+  width:100px;
+  max-width: 1%;
+}
+p{
+  font-weight: 600;
+  color: white;
 }
 /**Header**/
 .nav-link{
@@ -19,7 +23,7 @@ img {
 	height: 100px;
 }
 .container {
-	width: 1000px;
+	width: 100vw;
 	max-width: 100%;
 	margin: 0 auto;
 }
@@ -29,7 +33,7 @@ img {
 	justify-content: space-around;
   flex-wrap: wrap;
   position: fixed;
-  background-color: darkolivegreen;
+  background-color: rgb(1, 10, 65);
 }
 #nav-bar ul {
 	margin: 1em 0 .5em;
@@ -48,13 +52,20 @@ iframe{
   padding-top: 110px;
   width: 1000px;
   max-width: 100%;
+  min-width: 100vw;
 
 }
 form{
   display: flex;
-  background-color: cornflowerblue;
-  width:1000px;
+  background-color: rgb(1, 10, 65);
   max-width: 100%;
+  min-width: 100vw;
+  margin: 0 auto;
+  padding-top: 2.5%;
+  padding-bottom: 5%;
+}
+input{
+  font-size: 25px;
 }
 
 @media only screen and (max-width: 600px){
