@@ -6,9 +6,13 @@ body{
   width:1000px;
   max-width: 100%;
 }
-/**Header
-**/
-
+/**Header**/
+.nav-link{
+  font-size: 20px;
+  font-weight: 1000;
+  color: white;
+  text-underline-position: above;
+}
 img {
   width: 300px;
 	max-width: 100%;
